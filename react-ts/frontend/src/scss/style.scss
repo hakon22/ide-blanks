@@ -1,0 +1,17 @@
+body {
+  background-color: #fffbf6;
+}
+
+.anim-show {
+	opacity: 0;
+	transition: 1s;
+	animation: show 1s 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes show {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@media (max-width: 767px) {}
